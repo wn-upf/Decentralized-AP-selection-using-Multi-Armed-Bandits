@@ -15,7 +15,6 @@ for i=1:N_STAs
             STA(i).expl(iter)=STA(i).expl(iter)+1;
         else
             STA(i).associated_AP = STA(i).APs_range(ceil(length(STA(i).APs_range)*rand));
-            %disp('hola')
         end
     end
     STA(i).APSel(iter+1)=STA(i).associated_AP;

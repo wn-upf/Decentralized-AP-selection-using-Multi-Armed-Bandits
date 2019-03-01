@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 rng('default');
 seed=12+99;
 
@@ -17,7 +17,7 @@ epsilon=0.02; % Epsilon value
 SC=4;       % Sticky counter
 clustered=1; % 1 for clustered STAs, 0 for random uniform placement
 
-%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 
 AggrSatisf=zeros(MaxSim*N_STAs,MaxIter+1);  % Holds all satisfaction
